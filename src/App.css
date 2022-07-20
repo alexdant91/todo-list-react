@@ -1,0 +1,37 @@
+.message {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  position: relative;
+}
+
+.message span::after {
+  content: "\2715";
+  position: absolute;
+  color: white;
+  margin: auto;
+  right: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  position: relative;
+}
+
+.error span::after {
+  content: "\2715";
+  position: absolute;
+  color: white;
+  margin: auto;
+  right: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
